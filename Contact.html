@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Learn<span>Hub</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="container">
+            <h2>Fill the form</h2>
+            <form id="contactForm" novalidate>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="Subject">Subject</label>
+                <input type="text" id="text" name="text">
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" ></textarea>
+                
+                <button type="Enroll">Enroll</button>
+            </form>
+            <p id="responseMessage" style="text-align:center; color:green;"></p>
+        </section>
+            <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 LearnHub. All rights reserved.</p>
+    </footer>
+    </main>
+    <script src="Contact.js"></script>
+</body>
+</html>
